@@ -23,7 +23,7 @@
 //SOFTWARE.
 
 
-strategy("Dow Factor RSI/MFI and Dependent Variable Odd Generator Strategy",shorttitle = "Dow_Factor RSI/MFI & DPOG Strategy", overlay = false, default_qty_type=strategy.percent_of_equity,commission_type=strategy.commission.percent, commission_value=0.125, default_qty_value=100 )
+strategy("Dow Factor RSI/MFI and Dependent Variable Odd Generator Strategy",shorttitle = "Dow_Factor RSI/MFI & DVOG Strategy", overlay = false, default_qty_type=strategy.percent_of_equity,commission_type=strategy.commission.percent, commission_value=0.125, default_qty_value=100 )
 src = close 
 lights          = input(title="Barcolor I / 0 ? ", options=["ON", "OFF"], defval="OFF")
 method          = input(title="METHOD", options=["MFI", "RSI"], defval="RSI")
